@@ -7655,7 +7655,7 @@ blockquote cite.name {
 }
 
 .main-footer {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .map img {
@@ -7740,21 +7740,35 @@ blockquote cite.name {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.vision-boxes{
+  background-color: white;
+}
 
-.vm-div img {
-  width: 100%;
-
+.marq-tag{
+  font-size: 35px;
+  position: relative;
+  font-weight: 900 !important;
+  top: -20px;
+  color: #3A275A !important;
 }
 
 .vm-div {
-  padding: 0px 20px;
+ 
   height: 100%;
+  gap: 20px !important;
+   background-color: white;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   border-radius: 20px;
+   border: 1px dashed rgb(250, 36, 36);
 }
 
 .vm-div .heading-divv {
   background: #fff;
   padding: 20px;
 
+}
+.vm-div p{
+  text-align: justify;
 }
 
 .about-style-2 {
@@ -8702,13 +8716,39 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
 
 .vm-div img {
   max-height: 150px;
-  width: 150px;
+  
   margin: 20px;
   background-color: white !important;
 }
-
-.vm-div {
-
-  background-color: white !important;
+.six-services{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 254, 251);
+}
+.six-services p,h5{
+  text-align: center;
+}
+.six-services img{
+  margin-bottom: 10px;
+}
+.insustry-box img{
+  height: 250px ;
+  width: 400px !important;
+}
+.insustry-box{
+  margin: 20px;
+}
+.card-img-top{
+  height: 300px;
+}
+.industry-surve .card{
+  margin: 15px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
