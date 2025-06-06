@@ -7740,11 +7740,12 @@ blockquote cite.name {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.vision-boxes{
+
+.vision-boxes {
   background-color: white;
 }
 
-.marq-tag{
+.marq-tag {
   font-size: 35px;
   position: relative;
   font-weight: 900 !important;
@@ -7753,13 +7754,13 @@ blockquote cite.name {
 }
 
 .vm-div {
- 
+
   height: 100%;
   gap: 20px !important;
-   background-color: white;
-   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-   border-radius: 20px;
-   border: 1px dashed rgb(250, 36, 36);
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 20px;
+  border: 1px dashed rgb(250, 36, 36);
 }
 
 .vm-div .heading-divv {
@@ -7767,7 +7768,8 @@ blockquote cite.name {
   padding: 20px;
 
 }
-.vm-div p{
+
+.vm-div p {
   text-align: justify;
 }
 
@@ -8593,10 +8595,6 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
     color: var(--black-30);
     margin-left: 10px;
   }
-
-
-
-
 }
 
 .contbg-color {
@@ -8607,6 +8605,7 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
   border: 1px solid #000;
   padding: 30px 20px 0px 20px;
   height: 100% !important;
+  margin: 20px;
 
 }
 
@@ -8619,7 +8618,6 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
 }
 
 .contbg-color .service-item1 {
-  padding-left: 30px;
   text-align: center;
 
 }
@@ -8716,11 +8714,12 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
 
 .vm-div img {
   max-height: 150px;
-  
+
   margin: 20px;
   background-color: white !important;
 }
-.six-services{
+
+.six-services {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display: flex;
   justify-content: center;
@@ -8731,24 +8730,74 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
   border-radius: 10px;
   background-color: rgb(255, 254, 251);
 }
-.six-services p,h5{
+
+.six-services p,
+h5 {
   text-align: center;
 }
-.six-services img{
+
+.six-services img {
   margin-bottom: 10px;
 }
-.insustry-box img{
-  height: 250px ;
+
+.insustry-box img {
+  height: 250px;
   width: 400px !important;
 }
-.insustry-box{
+
+.insustry-box {
   margin: 20px;
 }
-.card-img-top{
-  height: 300px;
+
+.card-img-top {
+  height: 270px;
 }
-.industry-surve .card{
+
+.industry-surve .card {
   margin: 15px !important;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+.main-page .blog-item .product {
+  border: 1px solid #b9b9b9;
+  padding: 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+
+}
+
+.door-link {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.quick-links {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.quick-links i,
+a {
+  color: #3A275A;
+}
+
+.quick-links a:hover {
+  color:#E63C24 !important;
+}
+.construction-details li{
+  margin-bottom: 5px;
+  gap: 20px;
+}
+.construction-details i{
+  margin-right: 10px;
+  color: #3A275A;
+}
+.quick-links h6{
+  font-weight: 700;
+   color: #3A275A;
+   text-align: center;
+   margin-bottom: 30px;
+}
