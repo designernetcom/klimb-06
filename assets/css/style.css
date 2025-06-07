@@ -3247,6 +3247,7 @@ header form.search-form button {
 
 .main-menu .navbar-collapse>ul>li>a {
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3302,11 +3303,12 @@ header form.search-form button {
   cursor: pointer;
   font-size: 12px;
   margin-left: 5px;
+  padding-right: 10px;
 }
 
 @media only screen and (min-width: 992px) {
   .main-menu .navbar-collapse li.dropdown .dropdown-btn {
-    color: #000;
+    color: #000000;
   }
 
   .main-menu .navbar-collapse li li:first-child {
@@ -3463,7 +3465,7 @@ header form.search-form button {
 
 .main-menu .navbar-collapse li ul li ul {
   left: 100%;
-  top: 0%;
+  top: -50%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3552,7 +3554,7 @@ header form.search-form button {
 }
 
 .light-mode .fa-chevron-down:before {
-  color: #fff;
+  color: #8f0000;
 }
 
 /*******************************************************/
@@ -7374,9 +7376,12 @@ blockquote cite.name {
   margin-left: auto;
   margin-top: auto;
 }
+.footer-bottom-text a{
+ color: #fff;
+}
 
 .footer-bottom-text a:hover {
-  color: #fff;
+ 
 }
 
 .copyright-area {
@@ -8749,13 +8754,20 @@ h5 {
   margin: 20px;
 }
 
-.card-img-top {
-  height: 270px;
-}
-
 .industry-surve .card {
-  margin: 15px !important;
+  margin: -8px !important;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.industry-surve .card .card-title{
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #3A275A;
 }
 
 .main-page .blog-item .product {
@@ -8785,19 +8797,29 @@ a {
 }
 
 .quick-links a:hover {
-  color:#E63C24 !important;
+  color: #E63C24 !important;
 }
-.construction-details li{
+
+.construction-details li {
   margin-bottom: 5px;
   gap: 20px;
 }
-.construction-details i{
+
+.construction-details i {
   margin-right: 10px;
   color: #3A275A;
 }
-.quick-links h6{
+
+.quick-links h6 {
   font-weight: 700;
-   color: #3A275A;
-   text-align: center;
-   margin-bottom: 30px;
+  color: #3A275A;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dropdown-toggle::after{
+ display: none !important;
+}
+.img-card{
+  height: 150px;
+  width: 150px;
 }
